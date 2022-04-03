@@ -8,8 +8,7 @@
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//button[@name='action_draft']" position="after">
-                <button name="button_product_id" string="Creat MO" type="object" class="oe_highlight"/>
-                <!-- <field name="cost_production"/> -->
+                <button name="button_create_mo" string="Creat MO" type="object" class="oe_highlight"/>
             </xpath>
         </field>
     </record>
